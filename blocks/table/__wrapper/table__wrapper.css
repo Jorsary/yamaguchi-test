@@ -1,0 +1,33 @@
+.table__wrapper {
+  display: grid;
+  grid-template-columns: 1fr .512fr;
+  grid-template-areas:
+    'demo heading'
+    'demo firstText'
+    'demo secondText';
+  gap: 0 36px;
+  box-sizing: border-box;
+  margin: 24px 10px 42px 62px;
+  max-width: 1511px;
+}
+
+@media (max-width: 1440px) {
+  .table__wrapper {
+    margin: 24px auto 42px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table__wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'heading'
+      'firstText'
+      'demo'
+      'secondText';
+    gap: 0;
+    margin: 0 auto;
+    padding: 14px 12px;
+  }
+}

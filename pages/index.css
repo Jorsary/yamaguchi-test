@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;900&family=Ubuntu:wght@300;700&display=swap);
+@import url(../vendor/normalize.css);
+
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__wrapper/table__wrapper.css);
+@import url(../blocks/table/__demo/table__demo.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__img/table__img.css);
+@import url(../blocks/table/__img/_type/table__img_type_elevate.css);
+@import url(../blocks/table/__img/_type/table__img_type_bottom.css);
+@import url(../blocks/table/__buttons-container/table__buttons-container.css);
+@import url(../blocks/table/__button/table__button.css);
+@import url(../blocks/table/__paragraph/table__paragraph.css);
+@import url(../blocks/table/__paragraph/_type/table__paragraph_type_first.css);
+@import url(../blocks/table/__paragraph/_type/table__paragraph_type_second.css);

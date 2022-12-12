@@ -1,0 +1,41 @@
+.table__button {
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50%;
+  width: 42.1%;
+  margin-top: -42.1%;
+  background-color: #A6FFFF;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 170%;
+  color: #000;
+  cursor: pointer;
+  transition: background-color .3s ease, box-shadow .3s ease, transform .3s ease;
+}
+
+.table__button:hover {
+  background-color: #88d1d1;
+  box-shadow: 5px 5px 5px 1px gray;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1440px) {
+  .table__button {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .table__button {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .table__button {
+    font-size: 12px;
+  }
+}

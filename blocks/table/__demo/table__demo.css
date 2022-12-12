@@ -1,0 +1,6 @@
+.table__demo {
+  position: relative;
+  grid-area: demo;
+  box-sizing: border-box;
+  margin-top: 50px
+}

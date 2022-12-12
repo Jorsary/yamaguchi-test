@@ -1,0 +1,36 @@
+.table__title {
+  cursor: default;
+  grid-area: title;
+  margin: 0 0 34px;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 100%;
+  color: #0B64FE;
+}
+
+@media (max-width: 1440px) {
+  .table__title {
+    margin: 0 0 20px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .table__title {
+    margin: 0 0 10px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table__title {
+    font-weight: 700;
+    margin: 0 0 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .table__title {
+    font-size: 38px;
+  }
+}

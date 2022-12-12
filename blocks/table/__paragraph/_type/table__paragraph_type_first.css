@@ -1,0 +1,22 @@
+.table__paragraph_type_first {
+  grid-area: firstText;
+  margin: 0 0 37px;
+}
+
+@media (max-width: 1440px) {
+.table__paragraph_type_first {
+    margin: 0 0 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+.table__paragraph_type_first {
+    margin: 0 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table__paragraph_type_first {
+    margin: 0 0 48px;
+  }
+}
