@@ -1,0 +1,53 @@
+.voice__wrapper {
+  display: grid;
+  grid-template-columns: 32% 23% 45%;
+  grid-template-areas:
+    'title frame phone'
+    'firstParagraph frame phone'
+    'secondParagraph frame phone'
+    'call frame phone'
+    'phrases frame phone';
+  margin: 0 auto;
+  padding: 0 0 0 100px;
+}
+
+@media (max-width: 1900px) {
+  .voice__wrapper {
+    grid-template-columns: 28% 1fr 40%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .voice__wrapper {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .voice__wrapper {
+    max-width: 700px;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas:
+      'title frame'
+      'firstParagraph frame'
+      'secondParagraph phone'
+      'call phone'
+      'phrases phone';
+  }
+}
+
+@media (max-width: 768px) {
+  .voice__wrapper {
+    padding: 0 15px;
+    max-width: 500px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'firstParagraph'
+      'secondParagraph'
+      'frame'
+      'phone'
+      'call'
+      'phrases';
+  }
+}

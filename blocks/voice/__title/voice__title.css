@@ -1,0 +1,25 @@
+.voice__title {
+  grid-area: title;
+  position: relative;
+  max-width: 375px;
+  margin: 72px 0 64px;
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+  .voice__title {
+    font-size: 48px;
+    line-height: 1;
+    margin: 30px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .voice__title {
+    font-size: 34px;
+    margin: 17px 0 33px;
+    max-width: 230px;
+  }
+}

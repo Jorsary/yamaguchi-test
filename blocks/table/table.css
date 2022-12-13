@@ -1,5 +1,5 @@
 .table {
-  font-family: 'Ubuntu', Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   display: grid;
   grid-template-columns: 1fr .512fr;
@@ -8,8 +8,7 @@
     'demo firstText'
     'demo secondText';
   gap: 0 36px;
-  box-sizing: border-box;
-  margin: 24px 10px 42px 62px;
+  margin: 24px 10px 100px 62px;
   max-width: 1511px;
 }
 

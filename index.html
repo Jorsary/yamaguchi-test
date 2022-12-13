@@ -15,13 +15,13 @@
       </h1>
       <div class="table__demo">
         <img
-          src="./blocks/table/images/table.png"
+          src="./images/tableTop.png"
           alt="верхняя часть стола"
           class="table__img"
           id="tableTop"
         />
         <img
-          src="./blocks/table/images/table_bottom.png"
+          src="./images/tableBottom.png"
           alt="нижняя часть стола"
           class="table__img table__img_type_bottom"
         />
@@ -30,20 +30,54 @@
           <button class="table__button table__button_type_down">вниз</button>
         </div>
       </div>
-
-      <p class="table__paragraph table__paragraph_first">
+      <p class="table__paragraph table__paragraph_type_first">
         Cтильная столешница , выполненной из экологически безопасного материала
         (ДСП), и усиленной стальной рамы не составит труда разместить
         на поверхности инновационного стола большое количество крупногабаритной
         техники: стол выдерживает нагрузку до 80 кг.
       </p>
 
-      <p class="table__paragraph table__paragraph_second">
+      <p class="table__paragraph table__paragraph_type_second">
         Также столешница, обладающая меламиновым покрытием, хорошо переносит
         механические воздействия (царапины или удары), при контакте с водой
         не разрушается, устойчиво переносит бытовые химические вещества
         и не выгорает под воздействием ультрафиолета.
       </p>
+    </section>
+    <section class="voice">
+      <div class="voice__wrapper">
+        <h2 class="voice__title">Yamaguchi Voice Control</h2>
+
+        <p class="voice__paragraph voice__paragraph_type_first">
+          Вы можете управлять программами массажа или самим креслом с помощью
+          голосовых команд, приведённых ниже. Коснитесь кратковременно кнопки
+          голосового управления, расположенной на левом подлокотнике,
+          для запуска сеанса голосового управления.
+        </p>
+
+        <p class="voice__paragraph voice__paragraph_type_second">
+          Произнесите одну из доступных команд. Если произнесённая команда
+          распознана, вы услышите ответ и кресло приступит к выполнению запроса.
+        </p>
+
+        <h3 class="voice__call">СКАЖИ:</h3>
+        <div class="voice__phrases">
+          <h3 class="voice__first-phrase">«ОКЕЙ,</h3>
+          <h3 class="voice__second-phrase">ЯМАГУЧИ»</h3>
+        </div>
+
+        <div class="voice__frame-container">
+          <div class="voice__frame-img voice__frame-img_type_hide "></div>
+          <div class="voice__hole voice__hole_type_opened voice__hole_type_hide">
+            <img
+              src="./images/blackhole.svg"
+              alt="дыра"
+              class="voice__hole-img"
+            />
+          </div>
+        </div>
+        <img src="./images/phone.png" alt="смартфон" class="voice__phone-img" />
+      </div>
     </section>
     <script src="./pages/index.js"></script>
   </body>

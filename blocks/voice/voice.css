@@ -1,0 +1,20 @@
+.voice {
+  font-family: 'Montserrat';
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #181818;
+  background-image: url('../../images/background.png');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .voice {
+    overflow: hidden;
+    background-image: none
+  }
+}

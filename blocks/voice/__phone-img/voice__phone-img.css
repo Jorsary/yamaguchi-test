@@ -1,0 +1,12 @@
+.voice__phone-img {
+  grid-area: phone;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .voice__phone-img {
+    margin: 0 0 30px -41px;
+    width: 140%;
+  }
+}

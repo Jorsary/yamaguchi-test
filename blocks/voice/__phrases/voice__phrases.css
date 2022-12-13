@@ -1,0 +1,26 @@
+.voice__phrases {
+  position: relative;
+  display: flex;
+  margin: 0 0 0 60px;
+  font-size: 51px;
+  margin-bottom: 100px;
+  grid-area: phrases;
+}
+
+@media (max-width: 1900px) {
+  .voice__phrases {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1440px) {
+  .voice__phrases {
+    margin: 0 0 30px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .voice__phrases {
+    margin: 0 -15px 13px 0;
+  }
+}

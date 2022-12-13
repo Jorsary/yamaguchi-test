@@ -1,0 +1,19 @@
+.voice__second-phrase {
+  font-size: 61px;
+  font-weight: 900;
+  line-height: .9;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1440px) {
+  .voice__second-phrase {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 769px) {
+  .voice__second-phrase {
+    font-size: 49px;
+  }
+}

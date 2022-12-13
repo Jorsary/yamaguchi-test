@@ -2,3 +2,10 @@
   grid-area: secondText;
   margin: 0 0 29px;
 }
+
+
+@media (max-width: 768px) {
+  .table__paragraph_type_second {
+    margin: 48px 0 0;
+  }
+}

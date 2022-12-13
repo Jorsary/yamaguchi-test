@@ -1,0 +1,16 @@
+.voice__call {
+  grid-area: call;
+  position: relative;
+  margin: 0 0 17px;
+  font-size: 44px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1440px) {
+  .voice__call {
+    margin: 0 0 9px;
+    font-size: 38px;
+  }
+}

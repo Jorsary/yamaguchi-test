@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;900&family=Ubuntu:wght@300;700&display=swap);
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
 
 @import url(../blocks/table/table.css);
@@ -14,3 +14,23 @@
 @import url(../blocks/table/__paragraph/table__paragraph.css);
 @import url(../blocks/table/__paragraph/_type/table__paragraph_type_first.css);
 @import url(../blocks/table/__paragraph/_type/table__paragraph_type_second.css);
+
+
+@import url(../blocks/voice/voice.css);
+@import url(../blocks/voice/__wrapper/voice__wrapper.css);
+@import url(../blocks/voice/__title/voice__title.css);
+@import url(../blocks/voice/__paragraph/voice__paragraph.css);
+@import url(../blocks/voice/__call/voice__call.css);
+@import url(../blocks/voice/__phrases/voice__phrases.css);
+@import url(../blocks/voice/__second-phrase/voice__second-phrase.css);
+@import url(../blocks/voice/__first-phrase/voice__first-phrase.css);
+@import url(../blocks/voice/__frame-container/voice__frame-container.css);
+@import url(../blocks/voice/__frame-img/voice__frame-img.css);
+@import url(../blocks/voice/__hole-img/voice__hole-img.css);
+@import url(../blocks/voice/__hole/voice__hole.css);
+@import url(../blocks/voice/__hole/_type/voice__hole_type_opened.css);
+@import url(../blocks/voice/__hole/_type/voice__hole_type_hide.css);
+@import url(../blocks/voice/__paragraph/_type/voice__paragraph_type_first.css);
+@import url(../blocks/voice/__paragraph/_type/voice__paragraph_type_second.css);
+@import url(../blocks/voice/__phone-img/voice__phone-img.css);
+@import url(../blocks/voice/__frame-img/_type/voice__frame-img_type_hide.css);

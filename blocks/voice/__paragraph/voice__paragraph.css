@@ -1,0 +1,13 @@
+.voice__paragraph {
+  position: relative;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 1.7;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+  .voice__paragraph {
+    font-size: 16px;
+  }
+}
