@@ -29,8 +29,9 @@
 @import url(../blocks/voice/__hole-img/voice__hole-img.css);
 @import url(../blocks/voice/__hole/voice__hole.css);
 @import url(../blocks/voice/__hole/_type/voice__hole_type_opened.css);
-@import url(../blocks/voice/__hole/_type/voice__hole_type_hide.css);
+@import url(../blocks/voice/__hole/_type/voice__hole_type_closed.css);
 @import url(../blocks/voice/__paragraph/_type/voice__paragraph_type_first.css);
 @import url(../blocks/voice/__paragraph/_type/voice__paragraph_type_second.css);
 @import url(../blocks/voice/__phone-img/voice__phone-img.css);
 @import url(../blocks/voice/__frame-img/_type/voice__frame-img_type_hide.css);
+@import url(../blocks/voice/__frame-img/_type/voice__frame-img_type_levitation.css);

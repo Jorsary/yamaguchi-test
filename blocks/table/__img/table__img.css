@@ -5,5 +5,5 @@
   width: 100%;
   object-position: center;
   object-fit: contain;
-  transition: top .2s ease-in-out;
+  transition: top .2s ease-in-out, transform .2s ease-in-out;
 }

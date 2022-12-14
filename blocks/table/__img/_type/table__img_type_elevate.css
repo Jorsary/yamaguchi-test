@@ -1,3 +1,4 @@
 .table__img_type_elevate {
   top: -6%;
+  transform: scale(1.005);
 }

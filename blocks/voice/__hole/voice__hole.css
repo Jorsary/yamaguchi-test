@@ -1,9 +1,9 @@
 .voice__hole {
-  position: relative;
-  width: 44.3%;
+  width: 100%;
+  background-color: #000;
+  padding-bottom: 31%;
+  border-radius: 100% 100% 100% 100%;
+  transition: transform 1s ease-in-out;
+  transform: scale(0);
   z-index: 0;
-  transform: scale(1);
-  transition: top 1s ease-in-out, transform 1s ease-in-out;
-  align-self: center;
-  padding-bottom: 20px;
 }
